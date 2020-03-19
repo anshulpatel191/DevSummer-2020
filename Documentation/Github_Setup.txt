@@ -1,0 +1,95 @@
+Github is must!!!
+
+
+Part 1
+
+GitHub is a company that provides hosting for software development version control using Git. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, and wikis for every project.
+
+👆👆 That is Wikipedia talking...
+
+Since everyone is new to Git and GitHub, we don't expect you to understand the statements above. We have the following things planned for you as of now.
+
+Intro to git.
+1. Basic features and working with git.
+2. A hands-on experience.
+
+Intro to GitHub
+1. Basic structure and pupose.
+2. A hands-on experience.
+
+
+Part 2
+
+Before jumping into Git and Github, let's start with what version control means...  
+
+Version control is a system that allows you to keep track of your work and helps you to easily explore the changes you have made, be it data, coding scripts, notes, etc. You are probably doing some form of version control yourself, if you save your progress during a project development in batches like
+Progress_25thfeb.apk, 
+Progress_26thfeb.apk, 
+Progress_27thfeb.apk, 
+Progress_28thfeb.apk, 
+Progress_1stmar.apk, 
+Progress_2ndmar.apk, 
+Progress_3rdmar.apk 
+Progress_4thmar.apk, 
+. 
+. 
+. 
+Etc...
+
+With this approach while doing a project, you will be left with tens or hundreds of similar files, making it rather cumbersome to directly compare different versions, and is not easy to share among collaborators.
+
+
+Part 3
+
+With version control software such as Git, version control is much smoother and easier to implement. It manages changes to a project without overwriting any part of that project. But why Git? Say Ayush and Nishant are both updating pages on the same website. They make their changes, save them, and upload them back to the website. So far, so good but what if both are working on the same page at the same time? Will one get overwritten or will it produce an error?
+This is where a version control application like Git comes to the rescue. Ayush and Nishant can each upload their revisions to the same page, and Git will save two copies. Later, they can merge their changes together without losing any work along the way. They can even revert to an earlier version at any time, because Git keeps a “snapshot” of every change ever made.
+
+
+Part 4
+
+We want all of you to create your GitHub accounts and take a look at the workspace. You might understand some things, maybe not, but this is the first step to progress with any hands-on experience.
+
+Register with the link below
+https://github.com/join?source=header-home
+
+Note : Your username is your GitHub handle.
+
+Part 5
+
+So far, you have an idea that git is something that offers version control and that GitHub is a storage for the files you will use with git to work on a project. Let's dive in...
+
+Working with git can be divided into 3 stages.
+
+1. Local working directory : This is a copy of your online repository on your local machine. If you wish to make changes to an existing project file in the repository, you edit the copy on your machine before "pushing" your changes to the server.
+
+2. The staging area : The staging area is best described as a preview of your next "commit". Meaning, when you push your changes to the server , git will take the changes that are in the staging area and make the new commit out of those changes. One practical use of the staging area is that it allows you to fine-tune your commits.
+
+3. Git repository : Also called a "repo", this is a directory or a folder on the server that contains your project files. Every project on your server should ideally be in a dedicated repository which may contain several c
+hild folders and files.
+
+
+Part 6
+
+Here are some other keywords...
+
+1. Git add : This is a git command that places a file in the working repository on the staging area.
+
+2. Git commit : This is a git command that is used to push final changes to the server repository.
+
+Git works using requests. A "push" request is used to update files on the server using files on your local machine copy. A "pull" request on the other hand is used to update your local repo copy to the latest version of the same repo on the server.
+
+
+Part 7
+
+We found this tutorial on YouTube that covers installation, working of git and demos on the same.
+
+Feel free to ask any doubts after watching the video below.
+https://youtu.be/SWYqp7iY_Tc
+
+
+
+Documentation Done By:
+
+Ishaan Singh
+Pranshu Shukla
+Aditya Kumar
