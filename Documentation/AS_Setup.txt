@@ -1,0 +1,140 @@
+-------------------------------------------------------Start-------------------------------------------------------------
+So you guys have completed the setup, Well Done!!!
+
+Let's see the file structure in Android Studio
+
+Two important files
+
+1. AndroidManifest.xml
+2. build.gradle(Module: app)
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Open these files just have a overlook, in further sessions you will get to know the importance.
+If you see AndroidManifest.xml (from here onwards I will refer it as manifest file) code.
+
+You can see label - This is the name of the app.
+----------------------------------
+|android:label="@string/app_name"|
+----------------------------------
+
+------------------------------------
+|android:icon="@mipmap/ic_launcher"|
+------------------------------------
+This is where the icon of the app can be changed.
+
+Whenever you create a new Project, there is one Activity already present by default.
+Important -
+----------------------------------
+|Activity = Java File + XML File.|
+----------------------------------
+
+In your activity_main.xml file 
+-------------------------------
+|tools:context=".MainActivity"|
+-------------------------------
+There is this line.
+
+This is where the link is specified, whenever you create a new Activity this will be automatically done.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Now let's move to res directory
+So this directory is responsible to beautify your app.
+You can see 5 subdirectories
+1. drawable
+2. layout
+3. menu
+4. mipmap
+5. values
+
+In the "drawable" folder there will be images which will be used in the app.
+In the "layout" folder all your XML files will be there.
+
+"menu" is nothing but if you see any day to day apps, there are 3 vertical dots on the top-right corner of your phone.
+When you click on that options like Logout, Settings....such things come.
+This can be done here.
+In "mipmap" you can store your desired icons of the app.
+In the "value" file.....just open them and remember where they are, if you can figure out well and good, if not don't worry the aim of this folder will be cleared.
+These are nothing but your "variables". But in a sophisticated manner. But it make things easy when your projects are huge.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Now let's move to the last part....
+One of the most important files...
+build.gradle
+There are two files with the same name.
+In Section 1 chose the one with name
+build.gradle(Module: app)
+
+There are two parts in the gradle file
+android{
+
+}
+
+and
+
+dependencies{
+
+}
+
+Let's see the first part.
+android{
+
+}
+
+I will focus on few lines for now.
+compileSdkVersion 28
+I guess all of you are aware of Android OS versions, named on sweet dishes.
+
+So the number is nothing but some android version in Number form.
+SDK 28 is Android 9.
+
+minSdkVersion 15 - Take care of this line.
+If you keep the minSdkVersion 28 and run it on your phone with Android 8(Oreo), then it won't work.
+So just to be on a safer side keep it 15.
+You can also think of it in this way...
+Suppose you are releasing your app for general public and you have kept a higher minSdkVersion like 28 then the ones with OS version Oreo(Version 8) or Nougat(Version 7) or even below that won't be able to use your app.
+
+
+
+Now let's move on to 
+dependencies{
+
+}
+
+There are good people in this world who want to make our life easier.
+So what they basically do is make an Android dependency and make it open source.
+You just have to 
+"implementation 'com.google.android.material:material:1.0.0'" 
+copy paste a line like this.
+And you can use that dependency.
+
+Now if you are wondering what the heck is this dependency
+It is nothing but let's say you want to send a huge file over android phones.
+So what you do is write 200-300 line code yourself and check if that works or not.
+Instead, what we do we just use these dependencies, and get our work done in seconds.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+While developing Android Apps there are two languages used XML and Java. So we move on to the next step. Learning XML and Java...
+
+
+Learning XML is very easy(Just like HTML).
+Please follow these link to learn more about XML and how to use it in Android
+-> https://www.w3schools.com/xml/xml_usedfor.asp
+-> https://www.tutorialspoint.com/android/android_user_interface_layouts.htm
+-> https://www.youtube.com/watch?v=BWUWJEaI0aE
+
+
+Please follow this link to learn the basic concepts of Java.
+-> https://www.tutorialspoint.com/java/index.htm
+
+You can also follow any Youtube tutorial too for learning Java. 
+
+
+--------------------------------------------------------------end---------------------------------------------------------------------------
+
+
+
