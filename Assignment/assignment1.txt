@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------------------------------------------
+											Assignment 1
+---------------------------------------------------------------------------------------------------------------
+
+Make an Insta like login page with the help of following link
+Link -> https://www.youtube.com/watch?v=a6u3d2ssyjY
+
+
+You can use your creativity for color scheme. Refer the following website for different color scheme.
+Link -> https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+					^
+                    |
+Scroll to the bottom of the page for different color codes.
+
+
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
