@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------------------------------------------
+				Assignment 2
+---------------------------------------------------------------------------------------------------------------
+		
+					|		|
+					|		|
+			  ---------------------
+			  		|		|
+			  		|		|
+			  ---------------------
+			  		|		|
+			  		|		|
+
+			  		   X O
+
+Make a Tic-Tac-Toe game. Use the login page from assignment 1 as your opening page. 
+Only if the user enters a valid Username and Password, can enter the game. 
+(HINT: Use Intent)
+
+Try using the same color scheme as your login page for the game page. 
+
+Refer the following website for different color scheme.
+Link -> https://material.io/design/color/the-color-system.html#tools-for-picking-colors
+
+Scroll to the bottom of the page for different color codes.
+
+---------------------------------------------------------------------------------------------------------------
