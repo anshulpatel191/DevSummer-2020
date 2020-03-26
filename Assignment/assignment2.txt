@@ -2,16 +2,16 @@
 				Assignment 2
 ---------------------------------------------------------------------------------------------------------------
 		
-		|		|
-		|		|
-			  ---------------------
-  		|		|
-		|		|
-			  ---------------------
-		|		|
-		|		|
+					|		|
+					|		|
+					  		---------------------
+			  		|		|
+			  		|		|
+			 			 	---------------------
+			  		|		|
+			  		|		|
 
-			X O
+			  		   X O
 
 Make a Tic-Tac-Toe game. Use the login page from assignment 1 as your opening page. 
 Only if the user enters a valid Username and Password, can enter the game. 
